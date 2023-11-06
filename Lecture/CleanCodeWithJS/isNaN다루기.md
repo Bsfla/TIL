@@ -21,7 +21,7 @@ console.log(Number.isNaN(123 +'테스트')) // false
   - 이러한 사례 때문에, 전역 isNaN을 완전히 신뢰할 수는 없다고 판단하게 되어, 그 대안으로 `Number.isNaN` 이 등장했다.
 
 ```
-isNaN("blabla")   // true
+isNaN("blabla")   // true 
 ```
 
 - 이처럼 `isNaN` 느스한 검사를 한다는 문제가 있어서, ES2015에서부터 더 엄격한 버전인 `Number.isNaN`이 도입됐다.
